@@ -26,59 +26,39 @@ header{
 }
 
 main{
-    /* max-height: fit-content; */
     background: var(--primaryColor);
-    /* background: white; */
     color: var(--secondaryColor);
     border-radius: 1em;
     padding: .5em;
-
-    /* z-index: 12; 
-    i do not need this*/
 }
 
 .taskAddingField{
-    /* background: #000; */
-    /* padding: 10px; */
-    /* padding: auto; */
     height: 6vh;
-
-    /* justify-content: ;/ */
-    /* gap: 0.5em; */
     display: flex;
     justify-content: center;
-    /*  */
     align-items: center;
 }
 
 .btnRow{
-    /* height: inherit; */
     display: flex;
     align-items: center;
     background: #e6e6e6;
-    /* filter: grayscale(); */
     border-radius: 1em;
     border: 2px solid;
 }
 
 .taskInput{
-    /* background: #000; */
     border-radius: 1em 0 0 1em;
     padding: 0.2em 1em;
     background: transparent;
     border: none;
-    outline: none;
-    /* height: 4vh; */
-    /* margin: auto 0; */
-       
+    outline: none;       
 }
 
 .taskAddBtn{
-    /* height: 4vh; */
     padding: 0.2em 1em;
     border-radius: 0 1em 1em 0;
     border: none;
-    /* border: .2em solid; */
     background: var(--actioncolor);
 }
 
@@ -95,19 +75,14 @@ main{
     max-height: 44vh;
     padding: 1em;
     overflow-y: auto;
-    /* background: #000; */
 }
 
 .task{
     margin: 0.2em 0;
     text-align: justify;
-
     display: flex;
     align-items: center; 
-    /* display: grid; */
-    /* grid-template-columns: 1px auto 5px; */
     gap: .5em;
-    /* border: 1px solid; */
     border-radius: 0.5em;
     padding: 0 1em;
     width: inherit;
@@ -126,7 +101,6 @@ input[type="checkbox"]{
 }
 
 ::-webkit-scrollbar-thumb{
-    /* background: #acacac; */
     background: var(--actioncolor);
     border-radius: 1em;
 }
@@ -150,9 +124,5 @@ h5{
 .delete{
     height: .8em;
     width: fit-content;
-    /* justify-self: end; */
-    /* justify-content: end; */
-    /* align-items: end; */
-    /* align-self: flex-end; */
     margin-left: auto;
 }
